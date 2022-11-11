@@ -60,6 +60,7 @@
 
                         <button class="burger">
                             <img class="burger_img" src="img/burger.svg" alt="">
+                            <span class="sr-only">кнопка вызова меню</span>
                         </button>
                     </nav>
                 </div>
@@ -167,10 +168,22 @@
                 <h2 class="title portfolio_title">Мои работы</h2>
 
                 <div class="portfolio_top">
-                    <button class="active portfolio_top-btn" type="button" data-filter="all">Все работы</button>
-                    <button class="active portfolio_top-btn" type="button" data-filter=".category-a">Лендинги</button>
-                    <button class="active portfolio_top-btn" type="button" data-filter=".category-b">Корпоративные</button>
-                    <button class="active portfolio_top-btn" type="button" data-filter=".category-c">E-commerce</button>
+                    <button class="active portfolio_top-btn" type="button" data-filter="all">
+                        Все работы
+                        <span class="sr-only">показать все работы</span>
+                    </button>
+                    <button class="active portfolio_top-btn" type="button" data-filter=".category-a">
+                        Лендинги
+                        <span class="sr-only">показать все лендинги</span>
+                    </button>
+                    <button class="active portfolio_top-btn" type="button" data-filter=".category-b">
+                        Корпоративные
+                        <span class="sr-only">показать все корпоративные сайты</span>
+                    </button>
+                    <button class="active portfolio_top-btn" type="button" data-filter=".category-c">
+                        E-commerce
+                        <span class="sr-only">показать все интернет магазины</span>
+                    </button>
                 </div>
 
                 <div class="portfolio_content">
@@ -196,6 +209,7 @@
                 <div class="portfolio_loading">
                     <button class="active portfolio_btn" type="button">
                         Загрузить еще
+                        <span class="sr-only">загрузить ещё работы</span>
                     </button>
                 </div>
             </div>
@@ -343,7 +357,10 @@
                             <span class="contact_form-title">Ваше сообщение</span>
                             <textarea class="active contact_form-text" placeholder="Текст вашего сообщения"></textarea>
 
-                            <button class="active contact_form-btn" type="submit">Отправить</button>
+                            <button class="active contact_form-btn" type="submit">
+                                Отправить
+                                <span class="sr-only">отправить</span>
+                            </button>
                         </form>
                     </div>
                 </div>
