@@ -87,7 +87,7 @@
 }
 
 .header {
-    background-image: url('../img/header-bg.jpg');
+    background-image: url('../img/header-bg.webp');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -416,7 +416,7 @@
 }
 
 .reviwe_video {
-    background-image: url('../img/video-bg.jpg');
+    background-image: url('../img/video-bg.webp');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
