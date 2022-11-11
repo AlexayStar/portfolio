@@ -1,0 +1,365 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио frontend - разработчика Ивана Иванова</title>
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_top">
+            <div class="container">
+                <div class="header_top-inner">
+                    <nav class="nav">
+                        <a class="logo" href="#">
+                            <img class="logo_img" src="img/logo.svg" alt="Логотип">
+                        </a>
+
+                        <ul class="menu">
+                            <li class="menu_item">
+                                <a class="menu_link active " href="#">
+                                    Обо мне
+                                </a>
+                            </li>
+                            <li class="menu_item">
+                                <a class="menu_link active " href="#">
+                                    Навыки
+                                </a>
+                            </li>
+                            <li class="menu_item">
+                                <a class="menu_link active " href="#">
+                                    Услуги
+                                </a>
+                            </li>
+                            <li class="menu_item">
+                                <a class="menu_link active " href="#">
+                                    Портфолио
+                                </a>
+                            </li>
+                            <li class="menu_item">
+                                <a class="menu_link active" href="#">
+                                    Отзывы
+                                </a>
+                            </li>
+                            <li class="menu_item">
+                                <a class="menu_link active" href="#">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+
+                        <button class="burger">
+                            <img class="burger_img" src="img/burger.svg" alt="">
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="header_content">
+                <h1 class="header_title">
+                    <span class="header_name">Привет, я Иван Иванов</span><br>
+                    frontend-разработчик
+                </h1>
+
+                <div class="header_arrow">
+                    <a class="header_arrow-link active" href="#">
+                        смотреть работы
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="about">
+            <div class="container">
+                <h2 class="title">Обо мне</h2>
+
+                <div class="about_text">
+                    <p>
+                        Приветствую всех на своём сайте! Меня зовут Иван, я из Киева. Занимаюсь фронтенд-разработкой
+                        более года. До разработки занимался нелюбимым делом, ходил на нелюбимую работу, не мог понять за
+                        что взяться, чтобы дело приносило удовольствие и деньги, пока не наткнулся на один интересный
+                        курс.
+                    </p>
+                    <p>
+                        С тех пор прошел огонь, воду и медные трубы. Учёба давалась по-разному: где-то легче, где-то
+                        сложнее. Каждодневная работа над навыками и усердие, с которым я подходил к обучению, уже через
+                        несколько месяцев принесли плоды - я взял первый заказ на фрилансе. С отзывами клиентов и
+                        примерами работ можно ознакомиться ниже.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skill">
+            <div class="container">
+                <h2 class="title">Навыки</h2>
+
+                <div class="skill_wrapper">
+                    <img class="skill_img" src="img/skill-img.jpg" alt="Иван Иванов">
+
+                    <div class="skill_inner">
+                        <div class="skill_item">
+                            <span class="skill_name">html</span>
+                            <span class="skill_power" style="width: calc(100% - 20%);"></span>
+                        </div>
+                        <div class="skill_item">
+                            <span class="skill_name">css</span>
+                            <span class="skill_power" style="width: calc(100% - 25%);"></span>
+                        </div>
+                        <div class="skill_item">
+                            <span class="skill_name">js</span>
+                            <span class="skill_power" style="width: calc(100% - 40%);"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service">
+            <div class="container">
+                <h2 class="title service_head">Услуги</h2>
+
+                <div class="service_inner">
+                    <div class="service_item service_item-1">
+                        <h3 class="service_title">Вёрстка проектов</h3>
+                        <div class="service_text">
+                            <p>
+                                Сделаю качественную вёрстку вашего проекта по предоставленному макету или примеру
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service_item service_item-2">
+                        <h3 class="service_title">Посадка на CMS</h3>
+                        <div class="service_text">
+                            <p>
+                                Интегрирую ваш проект в одну из популярных CMS
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service_item service_item-3">
+                        <h3 class="service_title">Поддержка сайта</h3>
+                        <div class="service_text">
+                            <p>
+                                Гарантирую поддержку вашего сайта на протяжениии 30 дней после сдача проекта
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="title portfolio_title">Мои работы</h2>
+
+                <div class="portfolio_top">
+                    <button class="portfolio_top-btn" type="button" data-filter="all">Все работы</button>
+                    <button class="portfolio_top-btn" type="button" data-filter=".category-a">Лендинги</button>
+                    <button class="portfolio_top-btn" type="button" data-filter=".category-b">Корпоративные</button>
+                    <button class="portfolio_top-btn" type="button" data-filter=".category-c">E-commerce</button>
+                </div>
+
+                <div class="portfolio_content">
+                    <div class="portfolio_item mix category-a">
+                        <img src="img/portfolio/img-1.jpg" alt="работа в портфолио" data-fancybox>
+                    </div>
+                    <div class="portfolio_item mix category-a">
+                        <img src="img/portfolio/img-2.jpg" alt="работа в портфолио" data-fancybox>
+                    </div>
+                    <div class="portfolio_item mix category-b">
+                        <img src="img/portfolio/img-3.jpg" alt="работа в портфолио" data-fancybox>
+                    </div>
+                    <div class="portfolio_item mix category-b">
+                        <img src="img/portfolio/img-4.jpg" alt="работа в портфолио" data-fancybox>
+                    </div>
+                    <div class="portfolio_item mix category-c">
+                        <img src="img/portfolio/img-5.jpg" alt="работа в портфолио" data-fancybox>
+                    </div>
+                    <div class="portfolio_item mix category-c">
+                        <img src="img/portfolio/img-6.jpg" alt="работа в портфолио" data-fancybox>
+                    </div>
+                </div>
+                <div class="portfolio_loading">
+                    <button class="portfolio_btn" type="button">
+                        Загрузить еще
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviwe">
+            <div class="container">
+                <h2 class="title reviwe_title">Отзывы клиентов</h2>
+
+                <div class="reviwe_inner">
+                    <blockquote class="blockquote">
+                        <img class="blockquote_img" src="img/reviwe-img.png" alt="Марк Цукерберг">
+                        <span class="blockquote_name">Марк Цукерберг</span>
+                        <div class="blockquote_text">
+                            <p>
+                                Фантастика! Я всецело доволен
+                                работой этого специалиста.
+                                Быстро и качественно. Рекомендую!
+                            </p>
+                        </div>
+                    </blockquote>
+
+                    <div class="reviwe_video">
+                        <a class="reviwe_video-link"
+                            href="https://www.youtube.com/watch?v=jfKfPfyJRdk&ab_channel=LofiGirl" data-fancybox></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="stat">
+                <div class="stat_item">
+                    <h3 class="stat_title stat_title-1">Выполненных работ</h3>
+                    <span class="stat_num">56</span>
+                </div>
+                <div class="stat_item">
+                    <h3 class="stat_title stat_title-2">Довольных клиентов</h3>
+                    <span class="stat_num">23</span>
+                </div>
+                <div class="stat_item">
+                    <h3 class="stat_title stat_title-3">Выпито чашек кофе</h3>
+                    <span class="stat_num">477</span>
+                </div>
+                <div class="stat_item">
+                    <h3 class="stat_title stat_title-4">Всего отзывов</h3>
+                    <span class="stat_num">48</span>
+                </div>
+            </div>
+
+            <section class="contact">
+                <div class="container">
+                    <h2 class="title">Контакты</h2>
+                    <div class="contact_inner">
+                        <div class="contact_info">
+                            <div class="contact_text">
+                                <p>
+                                    Связаться со мной можно, воспользовавшись контактной формой, или напрямую по номеру
+                                    телефона, email, в соцсетях:
+                                </p>
+                            </div>
+
+                            <div class="contact_info-contact">
+                                <a class="contact_info-phone" href="tel:+79991112233">+7 (999) 111 22 33</a>
+                                <a class="contact_info-email"
+                                    href="mailto:frontend-monster@email.com">frontend-monster@email.com</a>
+                            </div>
+
+                            <div class="contact_social">
+                                <div class="contact_social-item">
+                                    <a href="#">
+                                        <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_20948_16)">
+                                                <path
+                                                    d="M31.2188 0H12.7813C5.73366 0 0 5.73366 0 12.7813V31.2187C0 38.2663 5.73366 44 12.7813 44H31.2187C38.2663 44 44 38.2663 44 31.2188V12.7813C44 5.73366 38.2663 0 31.2188 0ZM40.5625 31.2187C40.5625 36.3709 36.3709 40.5625 31.2188 40.5625H12.7813C7.6291 40.5625 3.4375 36.3709 3.4375 31.2188V12.7813C3.4375 7.6291 7.6291 3.4375 12.7813 3.4375H31.2187C36.3709 3.4375 40.5625 7.6291 40.5625 12.7813V31.2187Z"
+                                                    fill="#2352DE" />
+                                                <path
+                                                    d="M22 10.1406C15.4607 10.1406 10.1406 15.4607 10.1406 22C10.1406 28.5393 15.4607 33.8594 22 33.8594C28.5393 33.8594 33.8594 28.5393 33.8594 22C33.8594 15.4607 28.5393 10.1406 22 10.1406ZM22 30.4219C17.3562 30.4219 13.5781 26.6438 13.5781 22C13.5781 17.3562 17.3562 13.5781 22 13.5781C26.6438 13.5781 30.4219 17.3562 30.4219 22C30.4219 26.6438 26.6438 30.4219 22 30.4219Z"
+                                                    fill="#2352DE" />
+                                                <path
+                                                    d="M34.0312 11.6875C34.9805 11.6875 35.75 10.918 35.75 9.96875C35.75 9.01951 34.9805 8.25 34.0312 8.25C33.082 8.25 32.3125 9.01951 32.3125 9.96875C32.3125 10.918 33.082 11.6875 34.0312 11.6875Z"
+                                                    fill="#2352DE" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_20948_16">
+                                                    <rect width="44" height="44" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                                <div class="contact_social-item">
+                                    <a href="#">
+                                        <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_20948_45)">
+                                                <path
+                                                    d="M38.8438 0H5.15625C2.31309 0 0 2.31309 0 5.15625V38.8438C0 41.6869 2.31309 44 5.15625 44H38.8438C41.6869 44 44 41.6869 44 38.8438V5.15625C44 2.31309 41.6869 0 38.8438 0ZM40.5625 38.8438C40.5625 39.7915 39.7915 40.5625 38.8438 40.5625H29.0469V26.5547H34.357L35.2344 21.2266H29.0469V17.5312C29.0469 16.0725 30.1662 14.9531 31.625 14.9531H35.1484V9.625H31.625C27.2488 9.625 23.7206 13.1699 23.7206 17.5462V21.2266H18.5625V26.5547H23.7206V40.5625H5.15625C4.20853 40.5625 3.4375 39.7915 3.4375 38.8438V5.15625C3.4375 4.20853 4.20853 3.4375 5.15625 3.4375H38.8438C39.7915 3.4375 40.5625 4.20853 40.5625 5.15625V38.8438Z"
+                                                    fill="#2352DE" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_20948_45">
+                                                    <rect width="44" height="44" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                                <div class="contact_social-item">
+                                    <a href="#">
+                                        <svg width="44" height="46" viewBox="0 0 44 46" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_20948_41)">
+                                                <path
+                                                    d="M43.3206 4.4923C42.7831 3.81675 41.9781 3.44482 41.0536 3.44482C40.5511 3.44482 40.0187 3.5535 39.4715 3.76845L2.22633 18.381C0.249764 19.1563 -0.0164409 20.3197 0.000679409 20.9441C0.0177997 21.5686 0.347786 22.7148 2.36396 23.3741C2.37605 23.3779 2.38813 23.3817 2.40022 23.3851L10.1259 25.6574L14.3039 37.9366C14.8736 39.6107 16.1522 40.6505 17.6414 40.6505C18.5803 40.6505 19.5038 40.2462 20.3121 39.4816L25.0907 34.9595L32.0218 40.6954C32.0225 40.6961 32.0235 40.6964 32.0241 40.6971L32.0899 40.7516C32.096 40.7565 32.1024 40.7616 32.1084 40.7665C32.8788 41.3806 33.7197 41.7049 34.5412 41.7053H34.5415C36.1465 41.7053 37.4244 40.4842 37.7967 38.5949L43.8993 7.62472C44.1444 6.38162 43.9389 5.26928 43.3206 4.4923ZM12.7104 25.2258L27.6155 17.3998L18.3346 27.5354C18.1825 27.7013 18.0747 27.9045 18.0217 28.1257L16.2321 35.576L12.7104 25.2258ZM18.5655 37.5323C18.5038 37.5906 18.4417 37.6427 18.3796 37.6906L20.0399 30.7792L23.0601 33.2789L18.5655 37.5323ZM41.3725 7.09857L35.27 38.0691C35.2112 38.3655 35.0236 39.0552 34.5412 39.0552C34.3028 39.0552 34.0034 38.9217 33.6969 38.6791L25.843 32.1797C25.842 32.1786 25.8407 32.1776 25.8393 32.1769L21.1661 28.3092L34.5875 13.6518C35.0172 13.1826 35.0561 12.4639 34.6798 11.9485C34.3032 11.433 33.6207 11.2709 33.0624 11.5641L10.9879 23.1547L3.1572 20.852L40.391 6.24396C40.7055 6.12044 40.9251 6.09456 41.0536 6.09456C41.1325 6.09456 41.2728 6.10422 41.3249 6.17012C41.3933 6.25603 41.4806 6.54895 41.3725 7.09857Z"
+                                                    fill="#2352DE" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_20948_41">
+                                                    <rect width="44" height="45.2222" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form class="contact_form">
+                            <div class="contact_form-inner">
+                                <div class="contact_form-item">
+                                    <span class="contact_form-title">Ваше имя</span>
+                                    <input class="contact_form-name" type="text" placeholder="Иван">
+                                </div>
+
+                                <div class="contact_form-item">
+                                    <span class="contact_form-title">Номер телефона</span>
+                                    <input class="contact_form-num" type="tel" placeholder="+79991112233">
+                                </div>
+                            </div>
+
+                            <span class="contact_form-title">Ваше сообщение</span>
+                            <textarea class="contact_form-text" placeholder="Текст вашего сообщения"></textarea>
+
+                            <button class="contact_form-btn" type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <footer class="footer">
+        <a class="footer_logo" href="#">
+            <img class="footer_logo-img" src="img/logo.svg" alt="Логотип">
+        </a>
+    </footer>
+
+
+    <script src="js/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
